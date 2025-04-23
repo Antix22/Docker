@@ -18,6 +18,6 @@ jobs:
           server: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          protocol: ftps
+          protocol: sftp
           port: ${{secrets.PORT}}
           server-dir: /root/jankowalski/
