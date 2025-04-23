@@ -20,4 +20,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           protocol: ftps
           port: ${{secrets.PORT}}
-          server-dir: /root/jankowalski
+          server-dir: /root/jankowalski/
